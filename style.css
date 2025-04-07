@@ -20,6 +20,10 @@ body {
   background-color: rgb(47, 49, 47);
 }
 
+#exit:hover{
+  cursor: pointer;
+}
+
 .window {
   width: 80%;
   height: 70%;

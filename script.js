@@ -34,6 +34,12 @@ let body = document.body;
 let buttonTEXT = document.querySelector("#text");
 let buttonYES = document.querySelector("#yes");
 let buttonNO = document.querySelector("#no");
+let buttonEXIT = document.querySelector("#exit");
+
+buttonEXIT.addEventListener("click", () => {
+  let a = document.querySelector(".window");
+  a.style.display = "none";
+});
 
 function hack() {
   let count = 0;
