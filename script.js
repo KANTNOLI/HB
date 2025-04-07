@@ -66,7 +66,7 @@ buttonNO.addEventListener("click", () => {
       break;
     default:
       buttonTEXT.innerHTML = `Ну типо, давай с начала`;
-      step = 1;
+      step = 0;
   }
 });
 
